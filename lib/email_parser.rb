@@ -7,14 +7,9 @@ require "pry"
 class EmailAddressParser
   
   attr_accessor :emails
-  #@parse = [] 
   
   def initialize(emails)
     @emails = emails
-    
-    #@parse = emails.split(",")
-    # @parse = emails.split(/[\s]+/)
-    # binding.pry 
   end 
   
   def parse
